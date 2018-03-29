@@ -1,11 +1,11 @@
-- title: Getting Started
+- title: 基本使用
   docs:
   - home
-  - themes
-  - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+#  - themes
+#  - customization
+#
+#- title: Examples
+#  docs:
+#  - cheatsheet
+#  - font-awesome
+#  - bootstrap
