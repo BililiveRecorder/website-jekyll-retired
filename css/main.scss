@@ -26,9 +26,11 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   padding-top: $navbar-height + $navbar-margin-bottom;
   margin-bottom: 46px;
+  font-family: "Arial Unicode MS", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 .navbar-brand{
@@ -41,8 +43,8 @@ body {
 
 
 .header-container {
-  background-color: black;
-  background: url('../img/bg.jpg') no-repeat 50% 0;
+  background-color: grey;
+  // background: url('../img/bg.jpg') no-repeat 50% 0;
   color: #fff;
 
   h1 {
