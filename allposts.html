@@ -1,16 +1,16 @@
 ---
-title: Blog
+title: 所有更新历史
 layout: default
-sectionid: blog
+sectionid: update
 ---
 
 
 <div class="container">
     <div class="inner-content">
-        <h1>All Posts</h1> {% for page in site.posts %}
+        <h1>所有更新历史</h1> {% for page in site.posts %}
         <p>
             <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
-            <span>on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
+            <span>{{ page.date | date: "%Y年%m月%d日" }}</span>
         </p>
         {% endfor %}
     </div>
