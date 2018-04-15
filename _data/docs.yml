@@ -1,6 +1,10 @@
-- title: 基本使用
+- title: 录播姬使用文档
   docs:
   - home
+  - storage
+  - clip
+  - flvprocess
+  - server
 #  - themes
 #  - customization
 #
