@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
 
     // $('.collapse').collapse('hide');
     $('.list-group-item.active').parent().parent('.collapse').collapse('show');
@@ -21,7 +21,7 @@ $(function() {
         source: pages
     });
 
-    $('#search-box').bind('typeahead:select', function(ev, suggestion) {
+    $('#search-box').bind('typeahead:select', function (ev, suggestion) {
         window.location.href = suggestion.url;
     });
 
@@ -30,5 +30,10 @@ $(function() {
     $('#markdown-content-container table').addClass('table');
     $('#markdown-content-container img').addClass('img-responsive');
 
-
+    $(window).load(function () {
+        $('.lazyload').each(function () {
+            $(this).attr('src', $(this).attr('data-src'));
+        });
+    });
+    
 });
