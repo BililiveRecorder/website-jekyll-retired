@@ -4,91 +4,102 @@ title: B站录播姬 - BiliBili直播录制工具
 ---
 
 <div class="header-container jumbotron">
-    <div class="container">
-        <h1>B站录播姬</h1>
-        <p>
-            一个BiliBili直播录制工具
-            <a href="https://jq.qq.com/?_wv=1027&k=5NPC2dt" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="20">
-                    <linearGradient id="b" x2="0" y2="100%">
-                        <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
-                        <stop offset="1" stop-opacity=".1" />
-                    </linearGradient>
-                    <clipPath id="a">
-                        <rect width="112" height="20" rx="3" fill="#fff" />
-                    </clipPath>
-                    <g clip-path="url(#a)">
-                        <path fill="#555" d="M0 0h39v20H0z" />
-                        <path fill="#4c1" d="M39 0h73v20H39z" />
-                        <path fill="url(#b)" d="M0 0h112v20H0z" />
-                    </g>
-                    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-                        <text x="205" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="290">QQ群</text><text
-                            x="205" y="140" transform="scale(.1)" textLength="290">QQ群</text><text x="745" y="150" fill="#010101"
-                            fill-opacity=".3" transform="scale(.1)" textLength="630">689636812</text><text x="745" y="140"
-                            transform="scale(.1)" textLength="630">689636812</text></g>
-                </svg>
-            </a>
-            <img data-src="https://img.shields.io/github/tag/Bililive/BililiveRecorder.svg?label=最新版本" class='lazyload'>
-        </p>
-        <p>
-            <a class="btn btn-primary btn-lg" href="https://soft.danmuji.org/BililiveRecorder/Setup.exe" role="button">下载安装包</a>
-            <a class="btn btn-primary btn-lg" href="https://github.com/Bililive/BililiveRecorder" target="_blank" role="button"
-                style="margin:0 0 0 10px">源代码</a>
-        </p>
-    </div>
+  <div class="container">
+    <h1>B站录播姬</h1>
+    <p>
+      <span>一个BiliBili直播录制工具</span>
+      <a href="https://jq.qq.com/?_wv=1027&k=5NPC2dt" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform:translateY(4px)" width="112" height="20">
+          <linearGradient id="b" x2="0" y2="100%">
+            <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+            <stop offset="1" stop-opacity=".1" />
+          </linearGradient>
+          <clipPath id="a">
+            <rect width="112" height="20" rx="3" fill="#fff" />
+          </clipPath>
+          <g clip-path="url(#a)">
+            <path fill="#555" d="M0 0h39v20H0z" />
+            <path fill="#4c1" d="M39 0h73v20H39z" />
+            <path fill="url(#b)" d="M0 0h112v20H0z" />
+          </g>
+          <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
+            <text x="205" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="290">QQ群</text>
+            <text x="205" y="140" transform="scale(.1)" textLength="290">QQ群</text>
+            <text x="745" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+              textLength="630">689636812</text>
+            <text x="745" y="140" transform="scale(.1)" textLength="630">689636812</text>
+          </g>
+        </svg>
+      </a>
+      <img data-src="https://img.shields.io/github/tag/Bililive/BililiveRecorder.svg?label=最新版本" class='lazyload'>
+    </p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="https://soft.danmuji.org/BililiveRecorder/Setup.exe" role="button" style="text-transform:none">下载安装包 (Windows)</a>
+      <a href="https://github.com/Bililive/BililiveRecorder" target="_blank" style="margin-left:20px">源代码<i class="fa fa-external-link" style="margin-left:5px"></i></a>
+    </p>
+  </div>
 </div>
-
 <div class="container">
-
-    <div class="row">
-        <div class="col-md-6">
-            <h3 class="header-light regular-pad">介绍</h3>
-            <blockquote>
-                <p>
-                    B站录播姬直接下载直播流，经过处理后保存到硬盘。支持自动根据文件大小或录制时长切割视频文件。支持只保存即时回放剪辑。
-                </p>
-                <p>
-                    在下载了直播数据后，录播姬会自动修复直播数据里的时间戳，使得录制的视频文件在播放器里可拖动进度条。
-                </p>
-            </blockquote>
-        </div>
-        <div class="col-md-6 text-center">
-            <img src="img/index.png" alt="" class="img-responsive">
-        </div>
+  <div class="row">
+    <div class="col-md-6" style="font-size: 16.25px">
+      <p>B站录播姬直接获取直播数据流，经过处理后保存到硬盘，而不是录制屏幕，没有二次编码。支持自动根据文件大小或录制时长切割视频文件。</p>
+      <p>在下载直播数据的同时，录播姬会自动调整直播数据里的时间戳，使得录制的视频文件在播放器里可拖动进度条。</p>
+      <p>实时监控直播间状态，主播开播后自动开始录制，避免错过直播或忘记启动录制。</p>
+      <div class="red-text-new">NEW!</div>
+      <p>现已支持录播同时保存直播弹幕</p>
+      <div class="red-text-new">NEW!</div>
+      <p>全新界面现已实装，支持暗色模式</p>
     </div>
-
-    <hr>
-
-    <div class="row">
-        <div class="col-sm-4">
-            <h1 class="text-center">
-                <i class="fa fa-cogs" aria-hidden="true"></i>
-            </h1>
-            <h3 class="text-center">使用简单方便</h3>
-            <p>
-                只需要填写房间号，点击两个按钮即可录制。
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <h1 class="text-center">
-                <i class="fa fa-clock-o" aria-hidden="true"></i>
-            </h1>
-            <h3 class="text-center">自动修复时间戳</h3>
-            <p>
-                自动把录制的视频数据时间戳改为从 0 开始，并在录制结束后写入视频总长度信息。
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <h1 class="text-center">
-                <i class="fa fa-file-video-o" aria-hidden="true"></i>
-            </h1>
-            <h3 class="text-center">原始直播画质</h3>
-            <p>
-                直接录制保存主播直播原始画质，没有二次压制。相比录屏，使用更少CPU实现更高画质。
-            </p>
-        </div>
+    <div class="col-md-6 text-center">
+      <img src="img/index.png" alt="" class="img-responsive">
     </div>
-
-
+  </div>
+  <hr>
+  <div class="feature row">
+    <div class="col-sm-4">
+      <h3>使用简单方便</h3>
+      <p>只需要填写房间号，点击两个按钮即可录制。</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>开播自动录制</h3>
+      <p>录播姬会实时监控直播间状态，主播开播后自动开始录制。每个直播间可以独立设置是否自动录制。</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>原始直播画质</h3>
+      <p>直接录制保存主播直播原始画质，没有二次压制。</p>
+      <p>相比录制屏幕，使用更少CPU实现更高画质，并且可以同时录制多个直播间。</p>
+    </div>
+  </div>
+  <div class="feature row">
+    <div class="col-sm-4">
+      <h3>支持录制弹幕</h3>
+      <p>在设置里启用录制弹幕后，自动把直播弹幕保存为兼容B站主站XML的格式。同时录播姬支持记录礼物、SuperChat等信息，方便有特殊需求的用户。</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>支持暗色模式</h3>
+      <p>（Windows 10）配色自动跟随系统，并且支持暗色模式</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>自动调整时间戳</h3>
+      <p>自动把录制的视频数据时间戳改为从 0 开始，并在录制结束后写入视频总长度信息。</p>
+    </div>
+  </div>
 </div>
+<style>
+  .red-text-new {
+    position: absolute;
+    transform: rotate(-24deg) translate(-3px, -17px);
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+  }
+
+  div.feature.row>div>p {
+    margin: 0px;
+  }
+
+  div.feature.row>div {
+    text-align: center;
+    padding: 20px;
+  }
+</style>

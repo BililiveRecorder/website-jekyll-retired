@@ -4,10 +4,13 @@ title: B站录播姬
 description: >
   一个开源B站直播录制工具
 
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://rec.danmuji.org # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+lang: zh_CN
+logo: /img/logo.png
 git_address: https://github.com/Bililive/rec.danmuji.org
 git_edit_address: https://github.com/Bililive/rec.danmuji.org/blob/master
+
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
@@ -27,8 +30,13 @@ exclude:
   - Gemfile.lock
   - .idea/
   - .gitignore
+  - .git/
+  - .editorconfig
+  - CNAME
   - README.md
+
 timezone: Asia/Shanghai
+
 defaults:
 - scope:
     path: _posts
@@ -36,7 +44,6 @@ defaults:
   values:
     layout: post
     sectionid: update
-
 - scope:
     path: _docs
     type: docs

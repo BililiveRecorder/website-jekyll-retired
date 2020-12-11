@@ -1,10 +1,16 @@
-- title: 录播姬使用文档
+- title: B站录播姬桌面版
   docs:
-  - home
-  - storage
-  - clip
-  - flvprocess
-  - server
+  - desktop/index
+  - desktop/file_size
+  - desktop/auto_cut
+  - desktop/danmaku
+  - desktop/problems
+  - desktop/clip
+#  - flvprocess
+- title: B站录播姬服务器版
+  docs:
+  - server/index
+
 #  - themes
 #  - customization
 #

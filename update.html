@@ -1,0 +1,16 @@
+---
+title: 所有更新日志
+layout: default
+sectionid: update
+permalink: /update/
+---
+
+<div class="container">
+  <div class="inner-content">
+    <h2>所有更新日志</h2>
+    {% for page in site.posts %}<p>
+      <span>{{ page.date | date: "%Y年%m月%d日" }}</span>
+      <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
+    </p>{% endfor %}
+  </div>
+</div>
