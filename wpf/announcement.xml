@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="announcement.xsl" ?>
+<ui:ThemeShadowChrome xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:ui="http://schemas.modernwpf.com/2019"
+  xmlns:m="clr-namespace:BililiveRecorder.WPF.Models;assembly=BililiveRecorder.WPF">
+  <Border Background="{DynamicResource SystemControlBackgroundAltHighBrush}" BorderBrush="{DynamicResource SystemControlBackgroundAccentBrush}" BorderThickness="1" CornerRadius="5">
+    <ScrollViewer>
+      <StackPanel Margin="5">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="公告还没有写" FontSize="20"/>
+      </StackPanel>
+    </ScrollViewer>
+  </Border>
+</ui:ThemeShadowChrome>
