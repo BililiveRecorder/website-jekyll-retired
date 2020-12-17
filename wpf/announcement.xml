@@ -7,9 +7,22 @@
   xmlns:m="clr-namespace:BililiveRecorder.WPF.Models;assembly=BililiveRecorder.WPF">
   <Border Background="{DynamicResource SystemControlBackgroundAltHighBrush}" BorderBrush="{DynamicResource SystemControlBackgroundAccentBrush}" BorderThickness="1" CornerRadius="5">
     <ScrollViewer>
-      <StackPanel Margin="5">
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="公告还没有写" FontSize="20"/>
-      </StackPanel>
+      <ui:SimpleStackPanel Margin="5" Spacing="5">
+        <GroupBox Header="1.1.24 更新主要内容">
+          <ui:SimpleStackPanel Margin="5" Spacing="5">
+            <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-1-24/">
+              <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="打开完整更新日志" Margin="0,0,5,0"/>
+                <ui:PathIcon Data="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+              </StackPanel>
+            </Button>
+            <TextBlock Text="- 修改了软件界面"/>
+            <TextBlock Text="- 给弹幕XML添加了样式表，方便直接在浏览器里查看"/>
+            <TextBlock Text="- 现在添加房间后默认为自动录制"/>
+            <TextBlock Text="- 添加了崩溃时自动上报错误信息的功能"/>
+          </ui:SimpleStackPanel>
+        </GroupBox>
+      </ui:SimpleStackPanel>
     </ScrollViewer>
   </Border>
 </ui:ThemeShadowChrome>
