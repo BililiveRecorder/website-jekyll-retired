@@ -14,6 +14,31 @@
     <ScrollViewer>
       <ui:SimpleStackPanel Margin="10" Spacing="5">
         <ui:SimpleStackPanel Spacing="5">
+          <GroupBox Header="UI translations in upcoming versions">
+            <ui:SimpleStackPanel Margin="5" Spacing="5">
+              <TextBlock Text="Planned/打算支持: 繁中, English, 日本語, 한국어 (help wanted)"/>
+              <TextBlock Text="BililiveRecorder is adding multi-languages support."/>
+              <TextBlock Text="If you want to help translate this software please visit the crowdin project."/>
+              <TextBlock Text="If you have any questions, shoot a message to rec@danmuji.org or visit GitHub issue #146."/>
+              <TextBlock Text="Note: Source text is not finished as of writing of this message."/>
+              <TextBlock Text="最近发现录播姬有不少国际用户，所以正在添加多语言支持。"/>
+              <TextBlock Text="如果你希望帮助翻译，请点击下面的 crowdin 按钮。"/>
+              <TextBlock Text="如有问题请邮件 rec@danmuji.org 或 GitHub issue #146."/>
+              <TextBlock Text="注：目前翻译项还未整理完毕"/>
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://crowdin.com/project/bililiverecorder">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="Crowdin / bililiverecorder" Margin="0,0,5,0"/>
+                  <ui:PathIcon Data="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+                </StackPanel>
+              </Button>
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://github.com/Bililive/BililiveRecorder/issues/146">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="GitHub issue #146" Margin="0,0,5,0"/>
+                  <ui:PathIcon Data="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+                </StackPanel>
+              </Button>
+            </ui:SimpleStackPanel>
+          </GroupBox>
           <GroupBox Header="关于弹幕录制功能的说明">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <TextBlock Text="弹幕录制功能默认是禁用状态，在设置里可以启用"/>
