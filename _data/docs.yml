@@ -6,6 +6,7 @@
   - desktop/danmaku
   - desktop/problems
   - desktop/clip
+  - desktop/webhook
 #  - flvprocess
 - title: B站录播姬服务器版
   docs:
