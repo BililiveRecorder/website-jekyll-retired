@@ -6,12 +6,14 @@ title: Webhook
 
 请求内容例：
 
-```http
+```text
 POST /path/to/url
 Host: your.host.example.com
 Content-Type: application/json
 User-Agent: BililiveRecorder/1.1.26.0-d37a3c29
+```
 
+```json
 {
   "EventRandomId": "bc2d0a41-2711-4f9b-8619-e54104fe90d8",
   "RoomId": 14846654,
