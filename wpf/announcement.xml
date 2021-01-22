@@ -16,7 +16,6 @@
         <ui:SimpleStackPanel Spacing="5">
           <GroupBox Header="1.2.0 主要更新内容">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <TextBlock Text="1.2.0 会逐步更新给所有用户"/>
               <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-2-0/">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                   <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
