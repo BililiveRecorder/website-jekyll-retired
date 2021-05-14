@@ -1,16 +1,23 @@
-- title: B站录播姬桌面版
+- title: 基本功能
   docs:
-  - desktop/index
-  - desktop/file_size
-  - desktop/auto_cut
-  - desktop/danmaku
-  - desktop/problems
-  - desktop/clip
-  - desktop/webhook
-#  - flvprocess
-- title: B站录播姬服务器版
+  - /docs/
+  - /docs/faq/
+  - /docs/basic/danmaku/
+  - /docs/basic/record_mode/
+  - /docs/basic/auto_cut/
+  - /docs/basic/webhook/
+  - /docs/basic/related/
+- title: 录播修复系统
   docs:
-  - server/index
+  - /docs/process/
+  - /docs/process/feedback/
+- title: 工具箱
+  docs:
+  - /docs/toolbox/
+  - /docs/toolbox/fix/
+- title: 命令行版
+  docs:
+  - /docs/cli/
 
 #  - themes
 #  - customization

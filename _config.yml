@@ -35,6 +35,7 @@ exclude:
   - CNAME
   - README.md
 
+future: true
 timezone: Asia/Shanghai
 
 defaults:
