@@ -20,11 +20,13 @@
           <GroupBox Header="超大更新 1.3 已发布！">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <TextBlock Text="经过近 10 个月的规划、开发、测试，录播姬 1.3 终于正式发布啦！！"/>
-              <TextBlock Text="录播姬 1.3 的第一个正式版版本号是 1.3.1"/>
+              <TextBlock TextDecorations="Strikethrough" Text="录播姬 1.3 的第一个正式版版本号是 1.3.1"/>
+              <TextBlock Text="1.3.1 发布之后发现了个 bug。。。已经更新 1.3.2"/>
               <TextBlock Text="录播姬 1.3 重写了除了界面以外的几乎所有代码，其中最最主要的改动是新实现了一套针对B站直播录播问题的修复系统。"/>
               <TextBlock Text="除此以外还重构、整理了录制逻辑，新增了录播修复工具箱用于修复旧版录播姬或其他软件录制的B站录播。"/>
               <TextBlock Text="因为此次更新改动又大又多，强烈建议查看网站上的更新日志。"/>
-              <TextBlock Text="注：虽然 1.3 发布前已经有用户试用测试了几个星期，但为了防止因为失误和疏忽导致问题，目前暂时没有对所有用户推送最新版本，手动更新可到官网下载新版安装包覆盖安装。"/>
+              <TextBlock Text="注：目前 1.3 暂时没有对所有用户推送最新版本，可到官网下载新版安装包覆盖安装。"/>
+              <TextBlock Text="注2：1.3.1 的 bug 完全不影响录制，但推荐通过手动覆盖安装升级 1.3.1 的用户重新下载 1.3.2 覆盖安装。"/>
               <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                 <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-1/" Margin="0,0,5,0">
                   <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
