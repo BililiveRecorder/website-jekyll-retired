@@ -7,7 +7,7 @@
   xmlns:m="clr-namespace:BililiveRecorder.WPF.Models;assembly=BililiveRecorder.WPF">
   <Border Background="{DynamicResource SystemControlBackgroundAltHighBrush}" BorderBrush="{DynamicResource SystemControlBackgroundAccentBrush}" BorderThickness="1" CornerRadius="5">
     <Border.Resources>
-      <Style TargetType="TextBlock">
+      <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
         <Setter Property="TextWrapping" Value="Wrap"/>
       </Style>
       <Style TargetType="ui:PathIcon" x:Key="PathIconDataExternalLink">
@@ -17,6 +17,17 @@
     <ScrollViewer>
       <ui:SimpleStackPanel Margin="10" Spacing="5">
         <ui:SimpleStackPanel Spacing="5">
+          <GroupBox Header="录播姬调查问卷">
+            <ui:SimpleStackPanel Margin="5" Spacing="5">
+              <TextBlock Text="问卷共 6 页，完整回答的情况下共 34 题，其中大部分是选择题，大约需要 10 分钟。谢谢参与！"/>
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://wj.qq.com/s2/8371123/42b9">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="https://wj.qq.com/s2/8371123/42b9" Margin="0,0,5,0"/>
+                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
+                </StackPanel>
+              </Button>
+            </ui:SimpleStackPanel>
+          </GroupBox>
           <GroupBox Header="超大更新 1.3 已发布！">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <TextBlock Text="经过近 10 个月的规划、开发、测试，录播姬 1.3 终于正式发布啦！！"/>
@@ -30,9 +41,15 @@
                     <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                   </StackPanel>
                 </Button>
-                <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/docs/">
+                <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/docs/" Margin="0,0,5,0">
                   <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                     <TextBlock Text="新使用文档" Margin="0,0,5,0"/>
+                    <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
+                  </StackPanel>
+                </Button>
+                <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/docs/faq/">
+                  <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="常见问题" Margin="0,0,5,0"/>
                     <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                   </StackPanel>
                 </Button>
