@@ -17,11 +17,6 @@
     <ScrollViewer>
       <ui:SimpleStackPanel Margin="10" Spacing="5">
         <ui:SimpleStackPanel Spacing="5">
-          <GroupBox Header="关于弹幕录制功能">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <TextBlock Text="6月3日：目前因为B站服务器的原因，弹幕无法正常录制。如有问题可以直接找B站客服。"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
           <GroupBox Header="录播姬调查问卷">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <TextBlock Text="问卷共 6 页，完整回答的情况下共 34 题，其中大部分是选择题，大约需要 10 分钟。谢谢参与！"/>
