@@ -9,8 +9,15 @@ permalink: /docs/cli/
 下载地址： <https://github.com/Bililive/BililiveRecorder/releases>  
 也可以从 GitHub Actions 里来源分支为 `dev-1.3` 的 Build 的 Artifacts 里下载使用，不过开发版不保证稳定可靠。
 
-因为命令行版暂无交互界面和接口，只能读取配置文件运行，所以不建议一般用户使用。  
-以后（不是近期）应该会增加 Web 界面和 HTTP API，目前（1.3版本）的开发方向和重点是直播数据处理。
+Docker 版地址： <https://github.com/Bililive/BililiveRecorder/pkgs/container/bililiverecorde>  
+Docker 版支持 `amd64 (x86-64)`, `arm32 (arm/v7)`, `arm64 (arm64/v8)` 三种架构
+
+```sh
+docker pull ghcr.io/bililive/bililiverecorder:latest
+```
+
+因为命令行版暂无交互界面和接口，只能读取配置文件运行，所以目前不建议一般用户使用。  
+以后（不是近期）应该会增加 Web 界面和 HTTP API。
 
 录播姬命令行版与桌面版的功能完全一致，两个版本共用同一套核心代码，只在与用户交互的外壳代码上不同。  
 录播姬命令行版与桌面版的配置文件也是通用的，可以在桌面版配置好相关参数后用命令行版加载运行。  
@@ -27,6 +34,6 @@ permalink: /docs/cli/
 # 无配置文件模式运行
 ./BililiveRecorder.Cli portable "/path/to/output" 1 2 3 4 5
 
-# 分析录播文件并以 json 格式输出
+# 分析录播文件并以 json 格式输出 stdout
 ./BililiveRecorder.Cli tool analyze "/path/to/recording.flv" --json
 ```
