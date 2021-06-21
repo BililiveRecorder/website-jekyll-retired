@@ -18,6 +18,7 @@
 - title: 命令行版
   docs:
   - /docs/cli/
+  - /docs/cli/docker/
 
 #  - themes
 #  - customization
