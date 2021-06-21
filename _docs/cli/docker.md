@@ -3,7 +3,7 @@ title: 录播姬 Docker 版
 ---
 
 录播姬 Docker 版与一般命令行版完全一样  
-<https://github.com/Bililive/BililiveRecorder/pkgs/container/bililiverecorde>  
+<https://github.com/Bililive/BililiveRecorder/pkgs/container/bililiverecorder>  
 支持 `amd64 (x86-64)`, `arm32 (arm/v7)`, `arm64 (arm64/v8)` 三种架构
 
 用法示例：
