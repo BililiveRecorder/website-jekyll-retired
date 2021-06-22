@@ -11,6 +11,8 @@ B站录播姬 是一个开源软件，使用的开源协议是 GNU通用公共�
 
 录播姬QQ群： [689636812](https://jq.qq.com/?_wv=1027&k=5NPC2dt)
 
+赞助： [afdian.net/@genteure](https://afdian.net/@genteure)
+
 ### 系统需求和依赖
 
 B站录播姬（桌面版）需要 .NET Framework 4.7.2 或更高版本才能运行，支持的操作系统有
