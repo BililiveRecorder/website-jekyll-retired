@@ -1,6 +1,8 @@
 ---
 title: 录播修复问题反馈
-redirect_from: /link/fix_feedback/
+redirect_from:
+  - /link/fix_feedback
+  - /link/fix_feedback/
 ---
 
 如果提示无法修复或修复后没有解决问题，请先检查软件是否为最新版本。

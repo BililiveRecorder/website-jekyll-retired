@@ -1,6 +1,8 @@
 ---
 title: 弹幕录制
-redirect_from: /docs/desktop/danmaku.html
+redirect_from:
+  - /docs/desktop/danmaku
+  - /docs/desktop/danmaku/
 ---
 
 录播姬支持在录制直播的同时保存直播弹幕。  
