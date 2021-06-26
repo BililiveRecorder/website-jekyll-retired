@@ -28,7 +28,7 @@
               <TextBlock TextAlignment="Center" Text="常见问题 FAQ&#xa;rec.danmuji.org/docs/faq/"/>
             </Button>
           </WrapPanel>
-          <GroupBox Header="1.3.6 更新内容">
+          <GroupBox Header="1.3.6 和 1.3.7 更新内容">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-6/">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
@@ -39,6 +39,7 @@
               <TextBlock Text="- 应该修复了如果在窗口还未初始化完成就关闭窗口会导致崩溃退出的问题"/>
               <TextBlock Text="  - 现在如果在窗口未初始化完成时就关闭窗口，会正常退出而不是崩溃"/>
               <TextBlock Text="- 其他小修改"/>
+              <TextBlock Text="- 1.3.6 无法点 X 退出的 bug 已在 1.3.7 修复"/>
               <TextBlock Margin="0,5,0,0" Text="提醒：录播姬WPF版需要桌面才能运行，如果通过 Windows 的服务或计划任务启动录播姬，有可能因为无法使用桌面而不能启动。"/>
             </ui:SimpleStackPanel>
           </GroupBox>
