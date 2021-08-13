@@ -7,6 +7,7 @@
   - /docs/basic/auto_cut/
   - /docs/basic/webhook/
   - /docs/basic/related/
+  - /docs/basic/settings/
 - title: 录播修复系统
   docs:
   - /docs/process/
@@ -19,6 +20,7 @@
   docs:
   - /docs/cli/
   - /docs/cli/docker/
+  - /docs/cli/config_file/
 
 #  - themes
 #  - customization
