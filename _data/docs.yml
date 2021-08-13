@@ -16,6 +16,7 @@
   docs:
   - /docs/toolbox/
   - /docs/toolbox/fix/
+  - /docs/toolbox/danmaku_merge/
 - title: 命令行版
   docs:
   - /docs/cli/
