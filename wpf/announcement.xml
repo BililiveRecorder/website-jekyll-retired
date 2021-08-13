@@ -28,11 +28,35 @@
               <TextBlock TextAlignment="Center" Text="常见问题 FAQ&#xa;rec.danmuji.org/docs/faq/"/>
             </Button>
           </WrapPanel>
+          <GroupBox Header="1.3.9 更新内容">
+            <ui:SimpleStackPanel Margin="5" Spacing="5">
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-9/">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
+                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
+                </StackPanel>
+              </Button>
+              <TextBlock Text="- 在工具箱里添加了转封装工具"/>
+              <TextBlock Text="- 在工具箱里添加了弹幕XML合并工具"/>
+              <TextBlock Text="- 其他调整"/>
+            </ui:SimpleStackPanel>
+          </GroupBox>
+          <GroupBox Header="1.3.8 更新内容">
+            <ui:SimpleStackPanel Margin="5" Spacing="5">
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-8/">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
+                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
+                </StackPanel>
+              </Button>
+              <TextBlock Text="- 添加了一个填写画质ID的设置"/>
+            </ui:SimpleStackPanel>
+          </GroupBox>
           <GroupBox Header="1.3.6 和 1.3.7 更新内容">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-6/">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
+                  <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
                   <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                 </StackPanel>
               </Button>
@@ -47,7 +71,7 @@
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-5/">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
+                  <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
                   <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                 </StackPanel>
               </Button>
@@ -99,67 +123,6 @@
                   <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                 </StackPanel>
               </Button>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.2.3 更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-2-3/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 修复了一个因为用户名含有特殊字符导致弹幕录制出错的 bug"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.2.0 主要更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-2-0/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 修改了配置系统和配置文件格式，旧版会自动升级到新版格式"/>
-              <TextBlock Text="- 添加了多语言支持"/>
-              <TextBlock Text="- 添加了显示直播间标题和分区的功能"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.1.26 更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-1-26/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 修复了 3 个稳定性问题"/>
-              <TextBlock Text="- 添加了 Webhook 功能"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.1.25 更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-1-25/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 根据收集到的崩溃信息修复了几个导致软件崩溃的bug"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.1.24 更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-1-24/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器打开更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 修改了软件界面"/>
-              <TextBlock Text="- 给弹幕XML添加了样式表，方便直接在浏览器里查看"/>
-              <TextBlock Text="- 现在添加房间后默认为自动录制"/>
-              <TextBlock Text="- 添加了崩溃时自动上报错误信息的功能"/>
             </ui:SimpleStackPanel>
           </GroupBox>
         </ui:SimpleStackPanel>
