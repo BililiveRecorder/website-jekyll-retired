@@ -28,6 +28,16 @@
               <TextBlock TextAlignment="Center" Text="常见问题 FAQ&#xa;rec.danmuji.org/docs/faq/"/>
             </Button>
           </WrapPanel>
+          <GroupBox Header="关于最近可能出现的问题">
+            <ui:SimpleStackPanel Margin="5" Spacing="5">
+              <TextBlock Text="2021年9月10日公告："/>
+              <TextBlock Text="近期B站直播测试上线了 SRT 推流协议（以前是RTMP）"/>
+              <TextBlock Text="录播姬的修复系统可能对新推流协议对应的新问题不太兼容"/>
+              <TextBlock Text="如果遇到了无法录制等问题，可以在左下角设置里切换录制模式为原始数据"/>
+              <TextBlock Text="并联系作者进行问题反馈（联系方式见网站）"/>
+              <TextBlock Text="注：原始数据录制模式下分段功能无效，具体见网站文档"/>
+            </ui:SimpleStackPanel>
+          </GroupBox>
           <GroupBox Header="1.3.9 更新内容">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
               <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-9/">
