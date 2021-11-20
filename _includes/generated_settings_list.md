@@ -234,6 +234,14 @@
 
 
 
+### 录制无指定画质重连时间间隔 秒
+
+键名: `TimingStreamRetryNoQn`  
+类型: `uint`  
+默认设置: `90 (1.5分钟)`
+
+
+
 ### 连接直播服务器超时时间 毫秒
 
 键名: `TimingStreamConnect`  
