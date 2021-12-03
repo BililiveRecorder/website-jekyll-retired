@@ -12,8 +12,12 @@ title: 录播姬 Docker 版
 docker pull ghcr.io/bililive/bililiverecorder:latest
 ```
 
+关于 docker volume 请查看 docker 文档  
+[https://docs.docker.com/storage/volumes/]
+
 ```sh
 # 标准（使用配置文件）模式运行
+# 注意传入录播姬的参数是文件夹的路径，而不是 config.json 配置文件的路径
 docker run -d --name recorder -v /data/rec:/rec ghcr.io/bililive/bililiverecorder:latest run /rec
 
 # 无配置文件模式运行

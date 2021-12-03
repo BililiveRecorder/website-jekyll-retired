@@ -31,3 +31,137 @@ title: 配置文件
 ```
 
 `HasValue` 为 `true` 时使用此处设置的值，为 `false` 时使用更高一层的设置。
+
+配置文件内容示例：
+
+```json
+{
+  "version": 2,
+  "global": {
+    "TimingStreamRetry": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "TimingStreamConnect": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "TimingDanmakuRetry": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "TimingCheckInterval": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "TimingWatchdogTimeout": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "RecordDanmakuFlushInterval": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "Cookie": {
+      "HasValue": false,
+      "Value": null
+    },
+    "WebHookUrls": {
+      "HasValue": false,
+      "Value": null
+    },
+    "WebHookUrlsV2": {
+      "HasValue": false,
+      "Value": null
+    },
+    "LiveApiHost": {
+      "HasValue": false,
+      "Value": null
+    },
+    "RecordFilenameFormat": {
+      "HasValue": false,
+      "Value": null
+    },
+    "WpfShowTitleAndArea": {
+      "HasValue": true,
+      "Value": true
+    },
+    "RecordMode": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "CuttingMode": {
+      "HasValue": true,
+      "Value": 1
+    },
+    "CuttingNumber": {
+      "HasValue": false,
+      "Value": 0
+    },
+    "RecordDanmaku": {
+      "HasValue": true,
+      "Value": true
+    },
+    "RecordDanmakuRaw": {
+      "HasValue": false,
+      "Value": false
+    },
+    "RecordDanmakuSuperChat": {
+      "HasValue": true,
+      "Value": false
+    },
+    "RecordDanmakuGift": {
+      "HasValue": true,
+      "Value": false
+    },
+    "RecordDanmakuGuard": {
+      "HasValue": true,
+      "Value": false
+    }
+  },
+  "rooms": [
+    {
+      "RoomId": {
+        "HasValue": true,
+        "Value": 5440
+      },
+      "AutoRecord": {
+        "HasValue": true,
+        "Value": false
+      },
+      "RecordMode": {
+        "HasValue": false,
+        "Value": 0
+      },
+      "CuttingMode": {
+        "HasValue": false,
+        "Value": 0
+      },
+      "CuttingNumber": {
+        "HasValue": false,
+        "Value": 0
+      },
+      "RecordDanmaku": {
+        "HasValue": false,
+        "Value": false
+      },
+      "RecordDanmakuRaw": {
+        "HasValue": false,
+        "Value": false
+      },
+      "RecordDanmakuSuperChat": {
+        "HasValue": false,
+        "Value": false
+      },
+      "RecordDanmakuGift": {
+        "HasValue": false,
+        "Value": false
+      },
+      "RecordDanmakuGuard": {
+        "HasValue": false,
+        "Value": false
+      }
+    }
+  ]
+}
+```

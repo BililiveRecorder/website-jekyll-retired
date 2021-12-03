@@ -24,7 +24,8 @@ Docker 版见 [录播姬 Docker 版](/docs/cli/docker/)
 
 ```sh
 # 标准（使用配置文件）模式运行
-./BililiveRecorder.Cli run "/path/to/target"
+# 注意传入的参数是文件夹的路径，而不是 config.json 配置文件的路径
+./BililiveRecorder.Cli run "/path/to/target/"
 
 # 无配置文件模式运行
 ./BililiveRecorder.Cli portable "/path/to/output" 1 2 3 4 5
