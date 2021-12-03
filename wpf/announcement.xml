@@ -30,7 +30,7 @@
           </WrapPanel>
           <GroupBox Header="关于最近可能出现的问题">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <TextBlock Text="2021年9月10日公告："/>
+              <TextBlock Text="2021年12月4日公告："/>
               <TextBlock Text="近期B站直播测试上线了 SRT 推流协议（以前是RTMP）"/>
               <TextBlock Text="录播姬的修复系统可能对新推流协议对应的新问题不太兼容"/>
               <TextBlock Text="如果遇到了无法录制等问题，可以在左下角设置里切换录制模式为原始数据"/>
@@ -38,101 +38,34 @@
               <TextBlock Text="注：原始数据录制模式下分段功能无效，具体见网站文档"/>
             </ui:SimpleStackPanel>
           </GroupBox>
-          <GroupBox Header="1.3.9 更新内容">
+          <GroupBox Header="1.3.11 更新内容">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-9/">
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-11/">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                   <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
                   <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                 </StackPanel>
               </Button>
-              <TextBlock Text="- 在工具箱里添加了转封装工具"/>
-              <TextBlock Text="- 在工具箱里添加了弹幕XML合并工具"/>
-              <TextBlock Text="- 其他调整"/>
+              <TextBlock Text="- 修复工具箱-弹幕合并的 bug"/>
+              <TextBlock Text="- 修复记住工作路径功能的 bug"/>
+              <TextBlock Text="- 修复了偶尔崩溃的 bug"/>
+              <TextBlock Text="- 调整了工具箱-修复失败导出数据的内容"/>
+              <TextBlock Text="- 其他调整（见网站）"/>
             </ui:SimpleStackPanel>
           </GroupBox>
-          <GroupBox Header="1.3.8 更新内容">
+          <GroupBox Header="1.3.10 更新内容">
             <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-8/">
+              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-10/">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                   <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
                   <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
                 </StackPanel>
               </Button>
-              <TextBlock Text="- 添加了一个填写画质ID的设置"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.3.6 和 1.3.7 更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-6/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 应该修复了如果在窗口还未初始化完成就关闭窗口会导致崩溃退出的问题"/>
-              <TextBlock Text="  - 现在如果在窗口未初始化完成时就关闭窗口，会正常退出而不是崩溃"/>
-              <TextBlock Text="- 其他小修改"/>
-              <TextBlock Text="- 1.3.6 无法点 X 退出的 bug 已在 1.3.7 修复"/>
-              <TextBlock Margin="0,5,0,0" Text="提醒：录播姬WPF版需要桌面才能运行，如果通过 Windows 的服务或计划任务启动录播姬，有可能因为无法使用桌面而不能启动。"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="1.3.5 更新内容">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-5/">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="在浏览器查看完整更新日志" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="- 添加了不再每次启动都询问工作目录的选项"/>
-              <TextBlock Text="- 在“文件”菜单中添加了修改工作目录的选项，点击后会重启软件并显示工作目录选择界面"/>
-              <TextBlock Text="- 在“文件”菜单中添加了保存设置的选项，软件正常关闭时也会自动保存设置"/>
-              <TextBlock Text="- 录播姬现在会阻止系统进入休眠状态"/>
-              <TextBlock Text="- 修复了一个 工具箱-录播修复 的 UI Bug"/>
-              <TextBlock Text="- 其他细节修改"/>
-            </ui:SimpleStackPanel>
-          </GroupBox>
-          <GroupBox Header="超大更新 1.3 已发布！">
-            <ui:SimpleStackPanel Margin="5" Spacing="5">
-              <TextBlock Text="经过近 10 个月的规划、开发、测试，录播姬 1.3 终于正式发布啦！！"/>
-              <TextBlock Text="录播姬 1.3 重写了除了界面以外的几乎所有代码，其中最最主要的改动是新实现了一套针对B站直播录播问题的修复系统。"/>
-              <TextBlock Text="除此以外还重构、整理了录制逻辑，新增了录播修复工具箱用于修复旧版录播姬或其他软件录制的B站录播。"/>
-              <TextBlock Text="因为此次更新改动又大又多，强烈建议查看网站上的更新日志。"/>
-              <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/update/v1-3-1/" Margin="0,0,5,0">
-                  <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Text="打开更新日志" Margin="0,0,5,0"/>
-                    <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                  </StackPanel>
-                </Button>
-                <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/docs/" Margin="0,0,5,0">
-                  <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Text="新使用文档" Margin="0,0,5,0"/>
-                    <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                  </StackPanel>
-                </Button>
-                <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://rec.danmuji.org/docs/faq/">
-                  <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Text="常见问题" Margin="0,0,5,0"/>
-                    <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                  </StackPanel>
-                </Button>
-              </StackPanel>
-              <TextBlock Text="B站专栏文章之 录播姬介绍"/>
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://www.bilibili.com/read/cv11284714">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="cv11284714" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
-              <TextBlock Text="B站专栏文章之 录播姬 1.3 新修复系统介绍"/>
-              <Button Command="{x:Static m:Commands.OpenLink}" CommandParameter="https://www.bilibili.com/read/cv11284495">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                  <TextBlock Text="cv11284495" Margin="0,0,5,0"/>
-                  <ui:PathIcon Style="{StaticResource PathIconDataExternalLink}"/>
-                </StackPanel>
-              </Button>
+              <TextBlock Text="- 现在会严格遵守直播画质设置，没有设置里的画质可录时不再默认原画，而是不录"/>
+              <TextBlock Text="- 修改了工具箱里的弹幕合并，可以手动修改时间偏移量了"/>
+              <TextBlock Text="- 修复了直播标题含有特殊字符导致无法录制弹幕的问题"/>
+              <TextBlock Text="- 在托盘图标显示里增加了开播状态"/>
+              <TextBlock Text="- 其他调整（见网站）"/>
             </ui:SimpleStackPanel>
           </GroupBox>
         </ui:SimpleStackPanel>
