@@ -50,6 +50,9 @@ title: 相关软件
   - 有界面，功能：转封装、编码
   - <a href="https://www.bilibili.com/video/BV1aK4y1N7Nf" rel="noopener noreferrer nofollow" target="_blank">BV1aK4y1N7Nf<i class="fa fa-external-link" style="margin-left:5px"></i></a>
   - <a href="https://ruminoid.world" rel="noopener noreferrer nofollow" target="_blank">https://ruminoid.world<i class="fa fa-external-link" style="margin-left:5px"></i></a>
+- NegativeEncoder 消极压制
+  - 有界面，功能：编码
+  - <a href="https://github.com/zyzsdy/NegativeEncoder/releases" rel="noopener noreferrer nofollow" target="_blank">https://github.com/zyzsdy/NegativeEncoder/releases<i class="fa fa-external-link" style="margin-left:5px"></i></a>
 - 小丸工具箱
   - 有界面，功能：转封装、编码
   - <a href="https://dl.hdslb.com/video-press/xiaowantoolsrev194.zip" rel="noopener noreferrer nofollow" target="_blank">https://dl.hdslb.com/video-press/xiaowantoolsrev194.zip<i class="fa fa-external-link" style="margin-left:5px"></i></a>
